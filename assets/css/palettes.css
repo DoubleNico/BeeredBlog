@@ -1,0 +1,13 @@
+@reference "tailwindcss";
+
+:root {
+  @apply bg-white text-black;
+}
+
+.dark {
+  @apply bg-[#121212] text-white;
+}
+
+.contrast {
+  @apply bg-[#000000] text-white;
+}
