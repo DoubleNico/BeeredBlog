@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindTypography from '@tailwindcss/typography'
+
 export const content = [
   './components/**/*.{js,vue,ts}',
   './layouts/**/*.vue',
@@ -8,4 +10,4 @@ export const content = [
   './error.vue',
 ]
 export const darkMode = 'class'
-export const plugins = []
+export const plugins = [tailwindTypography()]

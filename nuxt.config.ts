@@ -12,6 +12,11 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
     '@nuxt/icon',
+    '@nuxt/content',
+    '@nuxt/ui',
+    'nuxt-auth-utils',
+    '@vueuse/motion/nuxt',
+    '@pinia/nuxt',
   ],
   vite: {
     plugins: [tailwindcss()],
@@ -40,6 +45,48 @@ export default defineNuxtConfig({
       redirectOn: 'root',
     },
   },
-
+  runtimeConfig: {
+    public: {
+      backend: process.env.BACKEND,
+    },
+  },
+  content: {
+    build: {
+      markdown: {
+        toc: {
+          depth: 3,
+          searchDepth: 3,
+        },
+        highlight: {
+          theme: {
+            default: 'github-light',
+            dark: 'github-dark',
+          },
+          langs: [
+            'json',
+            'js',
+            'ts',
+            'html',
+            'css',
+            'vue',
+            'shell',
+            'mdc',
+            'md',
+            'yaml',
+            'bash',
+            'typescript',
+            'javascript',
+          ],
+        },
+      },
+    },
+    renderer: {
+      anchorLinks: {
+        h2: true,
+        h3: true,
+        h4: true,
+      },
+    },
+  },
   css: ['~/assets/css/tailwind.css'],
 })
