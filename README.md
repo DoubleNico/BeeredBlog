@@ -37,6 +37,8 @@ I am using Nuxt Content to store all the markdown files and using [Javalin](http
 Checkout my [Backend](https://github.com/DoubleNico/BeeredBlog-Backend) for more information about it!
 
 Check out the [roadmap](#roadmap) for what features will be coming next!
+Check out [photos](https://photos.app.goo.gl/d4HJt8RBfvBPKz2L7) with the website(can't really host if for free sadly) !
+![Photo showing landing page](https://lh3.googleusercontent.com/pw/AP1GczOV0b9QRWn72rNZ0mC7z6xKpfp95cNXTasne3nsHzmKYkTnElB3jMRlVIWJAqh1QEPS2HFQRP8Rgpcr7PvqPpUtxeK5UBnPugzskKjRpRQowZs_pfV1rjzveG7Od8Boz2XqwZsp1DKKAl6hrEUaL-K3=w2880-h1722-s-no-gm?authuser=0)
 
 <!-- ROADMAP -->
 
