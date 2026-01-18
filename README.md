@@ -1,8 +1,63 @@
-# Nuxt Minimal Starter
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h1>BeeredBlog</h1>
+  <p>
+    Create and manage markdown blogs in a fun and easy way using <a href="https://nuxt.com/">Nuxt</a> and <a href="https://ui.nuxt.com/">Nuxt UI</a> and <a href="https://content.nuxt.com/">Nuxt Content</a>   <br />
+    <br />
+    <a href="https://github.com/DoubleNico/BeeredBlog/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/DoubleNico/BeeredBlog/issues">Request Feature</a>
+  </p>
+</div>
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#build">Build</a></li>
+  </ol>
+</details>
+
+
+
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+! This project I made it for fun and should not be used in a production state because scaling would be a pain and there is not any auth made and rate limiting for the backend related fetches 
+I am using Nuxt Content to store all the markdown files and using [Javalin](https://javalin.io/) with PostgresSQL for storing users, auth stuff and keeping track of the markdown files created
+Checkout my [Backend](https://github.com/DoubleNico/BeeredBlog-Backend) for more information about it!
+
+Check out the [roadmap](#roadmap) for what features will be coming next!
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create.  
+Any contributions you make are **greatly appreciated**!  
+If you're new to contributing to open-source projects,
+you can follow [this](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) guide to get
+up-to-speed.
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License
+See [LICENSE][license-url] for more information.
+
+## Build
+
+### Setup
 
 Make sure to install dependencies:
 
@@ -20,7 +75,7 @@ yarn install
 bun install
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
@@ -38,7 +93,7 @@ yarn dev
 bun run dev
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
@@ -73,3 +128,5 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+[license-url]: https://github.com/DoubleNico/BeeredBlog/blob/master/LICENSE
